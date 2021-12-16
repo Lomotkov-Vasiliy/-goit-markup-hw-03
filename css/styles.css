@@ -1,0 +1,79 @@
+-------------------Подключение стилей-----------------------------
+
+body {
+    font-family: "Raleway", "Roboto" ;  
+}
+
+--------------------------body------------------------------------
+                ----------header------------
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    Font family: Raleway
+    Font style: Bold
+    Font size: 26px
+    Line height: 31px
+    Line height: 100%
+    Align: Left
+    Vertical align: Top
+    Letter spacing: 3%
+}
+
+.header-link-studio {
+color: #2196F3;
+}
+
+.header-link {
+    color: #212121;
+}
+
+.header-mail {
+    color: #2196F3;
+}
+
+.header-tel {
+    color: #757575;
+}
+
+                ----------maine------------
+
+.hero {
+   background-color: #2F303A;
+}
+
+.hero-order-service {
+    color: #FFFFFF;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+--------------------------footer-------------------------------
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-address {
+    color: #FFFFFF;
+}
+
+.footer-mail {
+    color: #FFFFFF99;
+}
+
+.footer-tel {
+    color: #FFFFFF99;
+}
