@@ -1,11 +1,12 @@
--------------------Подключение стилей-----------------------------
+/* -------------------Подключение стилей----------------------------- */
 
 body {
     font-family: "Raleway", "Roboto" ;  
 }
 
---------------------------body------------------------------------
-                ----------header------------
+    
+/* --------------------------body------------------------------------
+                   ----------header------------ */
 .list {
     list-style: none;
 }
@@ -14,56 +15,173 @@ body {
     text-decoration: none;
 }
 
-.logo {
-    Font family: Raleway
-    Font style: Bold
-    Font size: 26px
-    Line height: 31px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 3%
+.header-logo {
+    color: #2196F3;
 }
-
-.header-link-studio {
-color: #2196F3;
+.text-studio {
+    color: black;
 }
 
 .header-link {
     color: #212121;
 }
 
+.header-link:hover {
+    color: #2196F3;
+}
+.header-link:focus {
+    color: #2196F3;
+}
+
+
 .header-mail {
+    color: #757575;
+}
+.header-mail:focus {
+    color: #2196F3;
+}
+.header-mail:hover {
     color: #2196F3;
 }
 
 .header-tel {
-    color: #757575;
+    color: #757575; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.header-tel:focus {
+    color: #2196F3;
+}
+.header-tel:hover {
+    color: #2196F3;
 }
 
-                ----------maine------------
-
-.hero {
-   background-color: #2F303A;
-}
+/* -----------------maine------------ */
 
 .hero-order-service {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.hero {
+    background-color: #2F303A;
 }
 
 .btn {
-    color: #FFFFFF;
-    background-color: #2196F3;
+color: #FFFFFF;
+background-color: #2196F3;
+cursor:pointer;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1,87;
+}
+.button {
+    text-align: center;
+    
+}
+
+.btn:hover {
+   background-color: #188CE8;
+}
+.btn:focus {
+    counter-reset: #188CE8;
+}
+
+
+/* ----------------services------------------- */
+
+.header-team {
+font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+
+.service-titles {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;   
+}
+
+.service-description {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 .team {
     background-color: #F5F4FA;
 }
 
---------------------------footer-------------------------------
+.occupation {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.header-team {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.developers-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.technology {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em; 
+    color: #757575;
+}
+/* --------------------------footer------------------------------- */
 
 .footer {
     background-color: #2F303A;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+.text-Web {
+    color: #2196F3;
 }
 
 .footer-address {
@@ -73,7 +191,19 @@ color: #2196F3;
 .footer-mail {
     color: #FFFFFF99;
 }
+.footer-mail:hover {
+    color: #FFFFFF;
+}
+.footer-mail:focus {
+    color: #FFFFFF;
+}
 
 .footer-tel {
     color: #FFFFFF99;
+}
+.footer-tel:hover {
+    color: #FFFFFF;
+}
+.footer-tel:focus {
+    color: #FFFFFF;
 }

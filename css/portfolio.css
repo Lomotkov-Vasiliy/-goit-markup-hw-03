@@ -1,0 +1,133 @@
+/* -------------------Подключение стилей----------------------------- */
+
+body {
+    font-family: "Raleway", "Roboto" ;  
+}
+
+/* --------------------------body------------------------------------
+                  ----------header------------ */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-logo {
+    color: #2196F3;
+}
+.text-studio {
+    color: black;
+}
+
+.header-link {
+    color: #212121;
+}
+
+.portfolio {
+    color: #2196F3;
+}
+
+.header-link:hover {
+    color: #2196F3;
+}
+.header-link:focus {
+    color: #2196F3;
+}
+
+
+.header-mail {
+    color: #757575;
+}
+.header-mail:focus {
+    color: #2196F3;
+}
+.header-mail:hover {
+    color: #2196F3;
+}
+
+.header-tel {
+    color: #757575; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.header-tel:focus {
+    color: #2196F3;
+}
+.header-tel:hover {
+    color: #2196F3;
+}
+
+/* -----------------maine------------ */
+
+.btn {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.btn:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.btn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.project {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.comment {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* --------------------------footer------------------------------- */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+.text-Web {
+    color: #2196F3;
+}
+
+.footer-address {
+    color: #FFFFFF;
+}
+
+.footer-mail {
+    color: #FFFFFF99;
+}
+.footer-mail:hover {
+    color: #FFFFFF;
+}
+.footer-mail:focus {
+    color: #FFFFFF;
+}
+
+.footer-tel {
+    color: #FFFFFF99;
+}
+.footer-tel:hover {
+    color: #FFFFFF;
+}
+.footer-tel:focus {
+    color: #FFFFFF;
+}
