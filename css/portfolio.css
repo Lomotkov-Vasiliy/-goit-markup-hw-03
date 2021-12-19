@@ -80,6 +80,11 @@ body {
     color: #FFFFFF;
 }
 
+.all {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
 .project {
 font-weight: bold;
 font-size: 18px;
