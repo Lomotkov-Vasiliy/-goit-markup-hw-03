@@ -37,7 +37,17 @@ ul {
 img {
     display: block;
 }
-    
+ 
+hr {
+  /* position: absolute;
+width: 1600px; */
+/* height: 0px; */
+/* left: 0px;
+top: 80px; */
+
+border: 1px solid #ECECEC;
+}
+
 /* --------------------------body------------------------------------
 -------------------------header----------------------------------- */
 
@@ -136,6 +146,7 @@ img {
     background-color:var(--background-other-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 
 .list-btn-portfolio {
@@ -223,7 +234,9 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 24px;
+
 }
 
 .comment {
@@ -233,6 +246,8 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     margin-top: 4px;
+    margin-bottom: 20px;    
+    margin-left: 24px;
 }
 
 .header-team {
@@ -249,13 +264,17 @@ img {
 .services-list:not(:last-child) {
     margin-bottom: 94px;
     display: flex;   
-    /* justify-content: center; */
-    /* margin-right: 30px; */
+    justify-content: space-between;
+  
+} */
+
+.services-item:not(:last-child) {
+    margin-right: 30px;
 }
 
-/* .service-description {
-    margin-right: 30px;
-} */
+.services-item {
+    width: 270px;
+}
 
 .service-titles {
     font-weight: bold;
@@ -290,7 +309,7 @@ color: var(--secondary-text-color);
 
 .occupation-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .about-item:not(:last-child) {
@@ -310,11 +329,14 @@ color: var(--secondary-text-color);
 .header-list-team {
     padding-bottom: 124px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.our-team:not(:last-child) {
-    margin-right: 30px;
+.our-team {
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .foto-team {
@@ -351,10 +373,14 @@ color: var(--secondary-text-color);
     margin-right: 30px;
 } */
 
+
 .item-projects {
     flex-basis: calc(100% / 9 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+
 }
 
 
@@ -364,6 +390,7 @@ color: var(--secondary-text-color);
     background-color:var(--background-other-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    height: 252px;
 }
 
 .footer-logo {
@@ -389,15 +416,18 @@ color: var(--secondary-text-color);
     line-height: 1.71;  
     letter-spacing: 0.03em;
     font-style: normal;
+    display: block;
     margin-bottom: 9px;
 }
 
 .footer-contact {
     color: var(--footer-contact-color);
     font-weight: normal;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;  
     letter-spacing: 0.03em;
+    display: block;
     margin-bottom: 9px;
 }
 .footer-contact:focus,
