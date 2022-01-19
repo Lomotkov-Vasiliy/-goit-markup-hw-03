@@ -17,6 +17,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     font-style: normal;
+    margin: 0px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -42,9 +43,6 @@ hr {
   /* position: absolute;
 width: 1600px; */
 /* height: 0px; */
-/* left: 0px;
-top: 80px; */
-
 border: 1px solid #ECECEC;
 }
 
@@ -252,17 +250,6 @@ border: 1px solid #ECECEC;
     margin-left: 24px;
 }
 
-.header-team {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
-
 .services-list:not(:last-child) {
     margin-bottom: 94px;
     display: flex;   
@@ -325,7 +312,8 @@ color: var(--secondary-text-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .header-list-team {
@@ -392,7 +380,7 @@ color: var(--secondary-text-color);
     background-color:var(--background-other-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    height: 252px;
+
 }
 
 .footer-logo {
@@ -430,8 +418,12 @@ color: var(--secondary-text-color);
     line-height: 1.71;  
     letter-spacing: 0.03em;
     display: block;
-    margin-bottom: 9px;
 }
+
+.footer-mail {
+margin-bottom: 9px;
+}
+
 .footer-contact:focus,
 .footer-contact:hover {
     color: var(--primary-white-color);
