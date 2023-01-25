@@ -87,7 +87,7 @@ border: 1px solid #ECECEC;
 }
 
 .header-logo {
-    font-family: Raleway; sans-serif;     
+    font-family: Raleway, sans-serif;     
     color: var(--color-blue);
     font-weight: bold;
     font-size: 26px;
